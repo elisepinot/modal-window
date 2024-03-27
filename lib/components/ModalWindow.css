@@ -20,7 +20,7 @@
   position: relative;
 }
 
-.close-btn-modal {
+.modal-window-close-btn {
   background: black;
   border: none;
   cursor: pointer;
