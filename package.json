@@ -1,12 +1,11 @@
 {
   "name": "modal-window-package",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ModalWindow is a lightweight and customizable React component designed to enhance user experience by providing an elegant modal solution for alerts, confirmations, and interactive content. Easy to integrate, it is ideal for developers looking to add dynamic modal functionalities to their web applications.",
   "main": "dist/index.js",
   "scripts": {
     "test": " Error: no test specified",
     "build": "rm -rf dist && NODE_ENV=production babel lib --out-dir dist --copy-files --extensions '.js,.jsx'"
-
   },
   "repository": {
     "type": "git",
@@ -25,7 +24,7 @@
   },
   "homepage": "https://github.com/elisepinot/modal-window#readme",
   "dependencies": {
-    "@babel/polyfill": "^7.12.1",
+    "core-js": "^3.36.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
